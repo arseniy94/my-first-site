@@ -1,0 +1,158 @@
+body {
+  background: lightgray;
+  margin: 0;
+  padding: 0;
+  font: 1em/1.3em Arial, Tahoma, "trebuchet MS", sans-serif;
+  color: #272727;
+}
+
+img {
+  vertical-align: middle;
+  border: none;
+}
+
+.main {
+  display: flex;
+  max-width: 1000px;
+  height: 100%;
+  margin: 10px auto;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  flex-flow: row wrap;
+}
+
+.bl {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 1 200px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 20px;
+}
+
+.fl1 {
+  background: #ffeeff;
+  border-color: black;
+  flex-basis: 100%;
+  height: 260px;
+}
+.fl2 {
+  background: #ffeeff;
+  border-color: black;
+  flex-basis: 100%;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.fl3 {
+  background: #ffeeff;
+  border-color: black;
+  flex-basis: 590px;
+  flex-grow: 3;
+}
+.fl4 {
+  background: #ffeeff;
+  border-color: black;
+  flex-basis: 180px;
+}
+.fl5 {
+  background: #ffeeff;
+  border-color: black;
+  flex-basis: 280px;
+}
+.fl6 {
+  background: #ffeeff;
+  border-color: black;
+  flex-basis: 280px;
+}
+.fl7 {
+  background: #ffeeff;
+  border-color: black;
+  flex-basis: 180px;
+}
+
+a.button {
+  background: #e7c5ff;
+  color: black;
+  padding: 10px 39px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a.button1 {
+  border: 2px double lightgray;
+  background: lavender;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a.button:hover,
+a.button1:hover {
+  background: lightgray;
+}
+
+.image img {
+  height: 260px;
+  width: 98%;
+}
+
+.image {
+  margin: 1px;
+  flex: 1 1 260px;
+}
+
+.text {
+  text-align: left;
+  margin: 5px;
+  flex: 1 1 150px;
+}
+
+.item {
+  text-align: left;
+  background: #ffeeff;
+  color: mediumpurple;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a.item:hover {
+  background: lightgray;
+}
+
+.line {
+  border-left: 2px solid #ccc;
+  margin-left: 5px;
+  padding-left: 10px;
+}
+
+h1 {
+  padding: 10px;
+  font-weight: 400;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: black;
+  margin: 0 10px 0 0;
+  font-size: 1.3em;
+  text-align: left;
+  font-style: normal;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.site-footer {
+  padding: 0;
+  background: #e7c5ff;
+  width: 96%;
+  text-align: center;
+}
