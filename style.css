@@ -1,12 +1,17 @@
 body {
-  background: lightgray;
-  margin: 0;
-  padding: 0;
+  background-image: url("images/fon.jpg");
+  background-color: lightgray;
+  margin: 5px;
+  padding: 5px;
   font: 1em/1.3em Arial, Tahoma, "trebuchet MS", sans-serif;
   color: #272727;
 }
 
 header {
+  padding: 10px;
+  border-radius: 3px;
+  margin: 1px;
+  position: relative;
   height: 205px;
   background: url("images/header_background.jpg") no-repeat center;
 }
@@ -14,35 +19,31 @@ header {
 .main {
   display: flex;
   max-width: 1000px;
-  height: 600px;
   margin: 10px auto;
   justify-content: center;
   align-items: stretch;
   align-content: stretch;
   flex-flow: row wrap;
 }
-.bl1 {
-  padding: 10px;
-  border-radius: 3px;
-  margin: 1px;
-}
+
 .bl {
   display: flex;
   flex-flow: row wrap;
   flex: 1 1 200px;
   text-align: center;
   padding: 10px;
-  border-radius: 3px;
 }
 
 .fl1 {
+  border-radius: 5px;
   flex-basis: 100%;
 }
 .fl2 {
-  background: #ffeeff;
+  border-radius: 5px;
+  background: #e7c5ff;
   border-color: black;
   flex-basis: 97%;
-  height: 30px;
+  height: 50px;
   justify-content: center;
   align-items: center;
 }
@@ -75,7 +76,7 @@ header {
 }
 
 a.button {
-  background: #e7c5ff;
+  background: #ffeeff;
   color: black;
   padding: 10px 39px;
   border-radius: 4px;
@@ -97,16 +98,13 @@ a.button1:hover {
   background: lightgray;
 }
 
-img {
+.image  {
   vertical-align: middle;
-}
-
-.image img {
   height: 210px;
   width: 40%;
-  position: relative;
+  position: absolute;
   left: 550px;
-  bottom: 95px;
+  bottom: 4px;
   border-radius: 200px;
   border: 3px solid #ffeeff;
   box-shadow: 0 0 7px #666;
@@ -157,23 +155,20 @@ li {
 }
 
 ul {
-  margin-left: 0;
-  padding-left: 0;
-}
-span {
-  vertical-align: middle;
-  padding: 90px;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  color: #ffeeff;
-  font-size: 2em;
-  font-style: normal;
+  margin-left: 1px;
+  padding-left: 1px;
 }
 
-.sp1 {
-  vertical-align: middle;
-  padding: 90px;
+ul.hr li {
+  text-align: center;
+  padding: 1px 2px;
+  display: inline;
+}
+
+.sp {
+  margin-left: 90px;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 1.1em;
+  font-size: 1.5em;
   font-style: normal;
   color: #ffeeff;
 }
@@ -187,7 +182,6 @@ span {
   border-radius: 5px;
   padding: 1px;
   background: #e7c5ff;
-  width: 96%;
+  width: 100%;
   text-align: center;
 }
-
