@@ -8,44 +8,51 @@
 
   <body>
     <div class="main">
-      <header class="header-style">
+      <header class="header">
         <div class="header-title">
           <p>Enter Site Title</p>
           <p>Enter Site Slogan</p>
         </div>
-        <img class="header-image" src="images/6mh.gif" alt="аниме" />
+        <img class="header__image" src="images/6mh.gif" alt="аниме" />
       </header>
 
-      <nav class="self-container menu">
-        <ul class="menu-list">
-          <li><a href="./index.html" class="menu-button">Home</a></li>
-          <li><a href="#" class="menu-button">Contact</a></li>
-          <li><a href="#" class="menu-button">New Page 1</a></li>
-          <li><a href="#" class="menu-button">New Page 2</a></li>
-          <li><a href="#" class="menu-button">New Page 3</a></li>
-          <li><a href="#" class="menu-button">New Page 4</a></li>
+      <nav class="self-container menu-navigation">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a class="menu-navigation__item_active" href="#">Contact</a></li>
+          <li><a href="#">New Page 1</a></li>
+          <li><a href="#">New Page 2</a></li>
+          <li><a href="#">New Page 3</a></li>
+          <li><a href="#">New Page 4</a></li>
         </ul>
       </nav>
 
-      <aside class="self-container main-menu">
+      <article class="self-container about">
+        <div class="text">
+          <h1>Our company</h1>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet, consectuer adipiscing elit.
+          </p>
+        </div>
+      </article>
+
+      <aside class="self-container aside-menu aside-block">
         <div class="text">
           <h2>&#187; Main Menu</h2>
           <ul>
-            <li><a href="#" class="main-menu-item">Menu Item 1</a></li>
-            <li><a href="#" class="main-menu-item">Menu Item 2</a></li>
-            <li><a href="#" class="main-menu-item">Menu Item 3</a></li>
-            <li><a href="#" class="main-menu-item">Menu Item 4</a></li>
-            <li><a href="#" class="main-menu-item">Menu Item 5</a></li>
-            <li><a href="#" class="main-menu-item">Menu Item 6</a></li>
-            <li><a href="#" class="main-menu-item">Menu Item 7</a></li>
-            <li><a href="#" class="main-menu-item">Menu Item 8</a></li>
-            <li><a href="#" class="main-menu-item">Menu Item 9</a></li>
+            <li><a href="#">Menu Item 1</a></li>
+            <li><a href="#">Menu Item 2</a></li>
+            <li><a href="#">Menu Item 3</a></li>
+            <li><a href="#">Menu Item 4</a></li>
+            <li><a href="#">Menu Item 5</a></li>
+            <li><a href="#">Menu Item 6</a></li>
+            <li><a href="#">Menu Item 7</a></li>
+            <li><a href="#">Menu Item 8</a></li>
+            <li><a href="#">Menu Item 9</a></li>
           </ul>
-        </div>
-      </aside>
+          <br />
 
-      <aside class="self-container aside-block">
-        <div class="text">
           <h2>&#187; Resources</h2>
           <p>
             Enter Block content here...<br /><br />
@@ -61,8 +68,8 @@
 
       <footer>
         <p>
-          Copyright © 2014. Design by
-          <a href="#" class="footer-item">HTML Templates</a>
+          Copyright © 2020. Design by
+          <a class="footer__item" href="#">HTML Templates</a>
         </p>
       </footer>
     </div>

@@ -46,9 +46,6 @@ li {
   display: flex;
   max-width: 1000px;
   margin: 10px auto;
-  justify-content: center;
-  align-items: stretch;
-  align-content: stretch;
   flex-flow: row wrap;
 }
 
@@ -89,7 +86,6 @@ li {
   background: #e7c5ff;
   border-color: black;
   flex-basis: 97%;
-  height: 50px;
   justify-content: center;
   align-items: center;
 }
@@ -102,15 +98,22 @@ li {
 
 .menu-navigation ul li a {
   background: #ffeeff;
-  color: black;
+
   padding: 10px 39px;
   border-radius: 4px;
   text-decoration: none;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .menu-navigation ul li a:hover {
   background: lightgray;
+  color: #ba78ff;
+  font-size: 1.1em;
+}
+
+.menu-navigation__item_active {
+  color: #ba78ff;
+  font-size: 1.1em;
 }
 
 .about {
@@ -132,8 +135,7 @@ p.about-paragraph:after {
   float: right;
   background: #ffeeff;
   border-color: black;
-  flex-basis: 180px;
-  flex-grow: 1;
+  flex: 1 6 20%;
 }
 
 .aside-menu ul li a {
@@ -155,12 +157,12 @@ p.about-paragraph:after {
 .section-first {
   background: #ffeeff;
   border-color: black;
-  flex-basis: 280px;
+  flex-basis: 301px;
 }
 .section-second {
   background: #ffeeff;
   border-color: black;
-  flex-basis: 280px;
+  flex-basis: 301px;
 }
 
 .second-second__line {
@@ -185,10 +187,13 @@ a.section-first__button:hover {
 }
 
 .aside-block {
+  display: flex;
+  flex-flow: row wrap;
   float: right;
   background: #ffeeff;
   border-color: black;
-  flex-basis: 155px;
+  flex: 1 6 20%;
+  text-align: center;
 }
 
 footer {
