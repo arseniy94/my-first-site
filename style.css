@@ -186,7 +186,7 @@ a.section-first__button:hover {
   background: lightgray;
 }
 
-.aside-block {
+.aside-resources {
   display: flex;
   flex-flow: row wrap;
   float: right;
