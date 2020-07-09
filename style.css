@@ -47,10 +47,24 @@ li {
   padding: 10px;
 }
 
-.self-container__aside {
+.self-container__main {
+  display: flex;
+  flex-direction: row;
+}
+
+.self-container__article {
+  width: 800px;
 }
 
 .self-container__section {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 1 200px;
+  text-align: center;
+  padding: 10px;
+}
+
+.self-container__aside {
   display: flex;
   flex-flow: row wrap;
   flex: 1 1 200px;
@@ -140,11 +154,6 @@ p.about-paragraph:after {
   background-color: #fc0;
   font-size: 90%;
   padding: 2px;
-}
-
-.aside {
-  float: right;
-  flex: 1 6 20%;
 }
 
 .aside-menu ul li a {
